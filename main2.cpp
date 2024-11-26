@@ -7,7 +7,6 @@ using namespace std;
 
 int main() {
 
-<<<<<<< HEAD
     int *Array {new int[10]};
     for (int i=0; i<10; i++){
         Array[i] = rand()%21-10;
@@ -22,8 +21,6 @@ int main() {
     }
 
     outFile.close();
-=======
-    string filename = "text.txt";
 
     ifstream inFile(filename);
 
@@ -34,7 +31,6 @@ int main() {
     }
 
     inFile.close();
->>>>>>> a65272d980ed6b2e219e71d8dd075a70e21ef842
 
     return 0;
 }
