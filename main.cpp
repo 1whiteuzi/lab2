@@ -20,5 +20,7 @@ int main() {
         outFile << Array[i] << endl;
     }
 
+    outFile.close();
+
     return 0;
 }
