@@ -12,5 +12,9 @@ int main() {
         Array[i] = rand()%21-10;
     }
 
+    string filename = "text.txt";
+
+    ofstream outFile("text.txt");
+
     return 0;
 }
