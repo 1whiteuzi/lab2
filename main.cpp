@@ -10,5 +10,11 @@ int main() {
 
     ifstream inFile(filename);
 
+    string line;
+    cout << "Содержимое файла:" << endl;
+    while (getline(inFile, line)) {
+        cout << line << endl;
+    }
+
     return 0;
 }
