@@ -16,5 +16,7 @@ int main() {
         cout << line << endl;
     }
 
+    inFile.close();
+
     return 0;
 }
