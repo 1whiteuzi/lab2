@@ -6,5 +6,9 @@ using namespace std;
 
 int main() {
 
+    string filename = "text.txt";
+
+    ifstream inFile(filename);
+
     return 0;
 }
