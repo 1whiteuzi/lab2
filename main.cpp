@@ -16,5 +16,9 @@ int main() {
 
     ofstream outFile("text.txt");
 
+    for (int i=0; i<10; i++){
+        outFile << Array[i] << endl;
+    }
+
     return 0;
 }
